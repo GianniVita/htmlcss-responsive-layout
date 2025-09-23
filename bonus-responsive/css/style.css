@@ -135,12 +135,16 @@ button{
     margin-top: 2rem;
     background-color: #ffffff;
     border: none;
-    gap: 1rem;
     border-radius: 2rem;
+   
 
 }
 .social button a{
     color: black;
     font-weight: bold;
     background-color: #ffffff;
+}
+
+.my-button{
+    box-shadow: 0  0.2rem #aeaaa3;
 }
