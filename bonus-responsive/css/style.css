@@ -148,3 +148,21 @@ button{
 .my-button{
     box-shadow: 0  0.2rem #aeaaa3;
 }
+
+img{
+    margin-top: 2rem;
+}
+
+h3{
+    font-weight: lighter;
+    font-weight: 300;
+    font-size: 2rem;
+    margin-top: 2rem;
+    letter-spacing: 4px;
+   
+}
+
+.orange{
+    width: 5.8rem;
+    background: #ff9614;
+}
