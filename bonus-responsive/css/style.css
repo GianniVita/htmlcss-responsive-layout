@@ -99,12 +99,14 @@ h2{
 }
 
 .calories{
-    display: block;
     margin: 2rem;
     padding: 2rem;
     width: 330px;
     background-color: #f6f5f9;
 }
+    
+
+
 
 .calories hr{
     margin: 1rem 0;
@@ -117,10 +119,18 @@ h2{
     border-radius: 0.2rem;
 }
 
-.info{
-    margin: 2rem;
+.moreinfo{
+    color: #ff9614;
 }
 
+.info{
+    margin: 2rem;
+    font-weight: lighter;
+    font-size: smaller;
+}
+
+
+/* Section for social-networks btn */
 .social {
     justify-content: space-around;
     color: black;
@@ -155,7 +165,7 @@ img{
 
 
 
-
+/* <------------- Presentation section ------------> */
 h3{
     font-weight: lighter;
     font-weight: 300;
@@ -181,5 +191,5 @@ h3{
     font-weight: lighter;
     font-size: small;
     line-height: 2rem;
-    
+
 }
