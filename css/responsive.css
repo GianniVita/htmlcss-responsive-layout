@@ -21,19 +21,23 @@
         float: left;
     }   
     
-    .recipe-video iframe {
-      
-        display: inline-block;
-    }
+    .quick-notes ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+}
+
 
     .social-networks button {
         padding: 10px 60px;
+        gap: 12px;
     }
 
-
-    .presentation p {
-        
+    .ads {
+        display: block;
+        margin: 30px auto;
     }
+
 
 
 }
@@ -53,6 +57,10 @@
 @media screen and(min-width: 992px ) {
     
     
+.recipe-card {
+      
+        display: flex;
+    }
 
 
     
