@@ -85,8 +85,23 @@
         width: 45%;
     }
 
+    .quick-notes ul {
+        display: block;
+    }
     .social-networks button {
         padding: 10px 90px;
         gap: 12px;
     }
+
+    footer{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem;
+    }
+
+    address {
+        text-align: left;
+    }
+
 }
