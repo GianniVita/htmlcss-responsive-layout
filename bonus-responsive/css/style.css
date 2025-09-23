@@ -101,11 +101,22 @@ h2{
 .calories{
     display: block;
     margin: 2rem;
+    padding: 2rem;
     width: 330px;
     background-color: #f6f5f9;
 }
 
+.calories hr{
+    margin: 1rem 0;
+} 
+
 .kcal{
-    background-color: #4e3969;
+    background-color: #7b69a2;
     color: #ffffff;
+    padding: 0.3rem;
+    border-radius: 0.2rem;
+}
+
+.info{
+    margin: 2rem;
 }
