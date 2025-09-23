@@ -1,0 +1,31 @@
+/* Soluzione qui */
+
+
+    /* il logo si alinea sinistra nella versione tablet */
+@media screen and (min-width 768px) {
+
+    #topbar {
+        justify-content: flex-start;
+    }
+
+    /* Il padding del mio contenuto aumenta nella versione tablet */
+
+    main {
+        padding: 40px;
+    }
+       
+    .presentatio img{
+
+    }   
+    
+
+
+
+}
+
+@media screen and(min-width:992 ) {
+
+    
+    
+}
+
