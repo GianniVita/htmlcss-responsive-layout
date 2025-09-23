@@ -26,6 +26,11 @@
         display: inline-block;
     }
 
+    .social-networks button {
+        padding: 10px 60px;
+    }
+
+
     .presentation p {
         
     }
