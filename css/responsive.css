@@ -2,7 +2,7 @@
 
 
     /* il logo si alinea sinistra nella versione tablet */
-@media screen and (min-width 768px) {
+@media screen and (min-width: 768px) {
 
     #topbar {
         justify-content: flex-start;
@@ -13,19 +13,43 @@
     main {
         padding: 40px;
     }
-       
-    .presentatio img{
-
+       /* The img goes to the left */
+      
+    .presentation img {
+        display: inline;
+        padding-right: 1rem;
+        float: left;
     }   
     
+    .recipe-video iframe {
+      
+        display: inline-block;
+    }
 
+    .presentation p {
+        
+    }
 
 
 }
 
-@media screen and(min-width:992 ) {
 
+
+
+
+
+
+
+
+
+
+
+
+@media screen and(min-width: 992px ) {
     
+    
+
+
     
 }
 
