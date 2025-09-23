@@ -57,7 +57,7 @@ header h1 {
     color: #aeaaa3;
     font-weight: 200;
 }
-
+/* <------ Video sectioon ------->  */
 .title-video{
     font-size: 3rem;
 }
@@ -153,16 +153,33 @@ img{
     margin-top: 2rem;
 }
 
+
+
+
 h3{
     font-weight: lighter;
     font-weight: 300;
     font-size: 2rem;
     margin-top: 2rem;
     letter-spacing: 4px;
-   
+    
 }
 
 .orange{
     width: 5.8rem;
     background: #ff9614;
+}
+
+.tiramisù{
+    width: 20rem;
+
+}
+
+.tiramisù-description{
+    margin: 0 1rem;
+    padding-top: 2rem;
+    font-weight: lighter;
+    font-size: small;
+    line-height: 2rem;
+    
 }
