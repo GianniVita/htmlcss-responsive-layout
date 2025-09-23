@@ -120,3 +120,27 @@ h2{
 .info{
     margin: 2rem;
 }
+
+.social {
+    justify-content: space-around;
+    color: black;
+   
+    padding: 8px;
+   
+}
+
+button{
+    width: 13rem;
+    height: 2rem;
+    margin-top: 2rem;
+    background-color: #ffffff;
+    border: none;
+    gap: 1rem;
+    border-radius: 2rem;
+
+}
+.social button a{
+    color: black;
+    font-weight: bold;
+    background-color: #ffffff;
+}
