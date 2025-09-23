@@ -1,6 +1,43 @@
+/* RESETS RULES -------------->*/
 *{
    padding: 0;
    margin: 0;
    box-sizing: border-box; 
 }
 
+
+
+/* UTILITIES -----------------> */
+.container{
+    max-width: 1024;
+    margin: 0 auto;
+}
+
+.d-flex{
+    display: flex;
+}
+
+body {
+    font-family: Montserrat, 'Helvetica Neue', sans-serif;
+}
+
+
+
+
+/* Main section ---------------> */
+
+
+header h1{
+        background-color:wheat;
+        font-family: "Nerko One", cursive;
+        font-weight: 400;
+        font-style: normal; 
+        color: orange;
+        text-shadow: 0px 0px 2px #aeaaa3;
+}
+
+.mini-title{
+    color: #aeaaa3;
+    font-weight: 200;
+    justify-content: center;
+}
