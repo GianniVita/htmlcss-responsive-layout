@@ -1,7 +1,7 @@
 /* Soluzione qui */
 
 
-    /* il logo si alinea sinistra nella versione tablet */
+/* il logo si alinea sinistra nella versione tablet */
 @media screen and (min-width: 768px) {
 
     #topbar {
@@ -13,19 +13,20 @@
     main {
         padding: 40px;
     }
-       /* The img goes to the left */
-      
+
+    /* The img goes to the left */
+
     .presentation img {
         display: inline;
         padding-right: 1rem;
         float: left;
-    }   
-    
+    }
+
     .quick-notes ul {
         display: flex;
         flex-wrap: wrap;
         gap: 50px;
-}
+    }
 
 
     .social-networks button {
@@ -54,15 +55,38 @@
 
 
 
-@media screen and(min-width: 992px ) {
-    
-    
-.recipe-card {
-      
+@media screen and (min-width: 992px) {
+
+
+    #topbar {
+        justify-content: flex-start;
+    }
+
+    .recipe-name {
+        display: flex;
+        gap: 1rem;
+    }
+
+    .recipe-origin {
+        display: flex;
+    }
+
+    .recipe-video {
+        width: 80%;
+    }
+
+    .recipe-card {
         display: flex;
     }
 
 
-    
-}
 
+    .recipe-info {
+        width: 45%;
+    }
+
+    .social-networks button {
+        padding: 10px 90px;
+        gap: 12px;
+    }
+}
