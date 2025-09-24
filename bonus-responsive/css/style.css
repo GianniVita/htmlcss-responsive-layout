@@ -41,6 +41,7 @@ header h1 {
     background-color: #ffffff;
     font-family: "Nerko One", cursive;
     font-weight: 400;
+    font-size: 3rem;
     font-style: normal;
     color: orange;
     text-shadow: 0px 0px 2px #aeaaa3;
@@ -55,11 +56,15 @@ header h1 {
 .mini-title {
     align-content: center;
     color: #aeaaa3;
-    font-weight: 200;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    
 }
 /* <------ Video sectioon ------->  */
 .title-video{
     font-size: 3rem;
+    margin-bottom: 1.5rem;
 }
 
 .star-rate{
@@ -194,6 +199,9 @@ h3{
 }
 
 footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
     margin-top: 2rem;
     padding: 2rem;
     background-color: #7b69a2;
@@ -205,6 +213,9 @@ footer{
 }
 
 .link-foot{
-    justify-self: right;
+    color: #ffffff;
+    padding-top: 1rem;
+    text-decoration: underline;
+    margin-left: 1rem;
 }
 
