@@ -24,7 +24,7 @@ body {
 
 a{
     text-decoration: none;
-    
+
 }
 
 
@@ -59,7 +59,7 @@ header h1 {
     font-weight: 400;
     margin-bottom: 1rem;
     font-size: 1rem;
-    
+
 }
 /* <------ Video sectioon ------->  */
 .title-video{
@@ -80,7 +80,7 @@ header h1 {
     color: #ffffff;
     padding: 0.5rem 1rem;
     border-radius: 1rem;
-    
+
 }
 
 h2{
@@ -93,7 +93,7 @@ h2{
 }
 
 .videocontainer iframe {
-    width: 100%;
+    width: 110%;
     height: 520px;
 
 }
@@ -109,13 +109,13 @@ h2{
     width: 330px;
     background-color: #f6f5f9;
 }
-    
+
 
 
 
 .calories hr{
     margin: 1rem 0;
-} 
+}
 
 .kcal{
     background-color: #7b69a2;
@@ -139,9 +139,9 @@ h2{
 .social {
     justify-content: space-around;
     color: black;
-   
+
     padding: 8px;
-   
+
 }
 
 button{
@@ -151,7 +151,7 @@ button{
     background-color: #ffffff;
     border: none;
     border-radius: 2rem;
-   
+
 
 }
 .social button a{
@@ -177,7 +177,7 @@ h3{
     font-size: 2rem;
     margin-top: 2rem;
     letter-spacing: 4px;
-    
+
 }
 
 .orange{
@@ -197,7 +197,7 @@ h3{
     font-size: small;
     line-height: 2rem;
 }
-
+/* <--------- Footer ------------> */
 footer{
     width: 100%;
     display: flex;
